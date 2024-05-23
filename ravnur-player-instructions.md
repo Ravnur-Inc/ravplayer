@@ -134,7 +134,7 @@ Explore the capabilities of the Ravnur Media Player through our interactive demo
 
 ### [Demo 2](https://strmsdemo.z13.web.core.windows.net/html-demo/index.html)
 
-### Code examples
+#### Code examples
 For further guidance, access our repository of code examples for popular JavaScript frameworks and vanilla JavaScript:
 [here](https://github.com/Ravnur-Inc/ams-api-replacement-demo-app/tree/main/player-demos). These examples can be referenced and adapted to implement Ravnur Media Player within your own project.
 
@@ -156,7 +156,7 @@ ___
 
 | Property | Default value | Type | Description |
 | :--- | :----: | :---: | :--- |
-| aesToken | `undefined` | `string` | **AES Token value**. This property specifies the AES Token used for decryption. [AES Token Example](#aes). |
+| aesToken | `undefined` | `string` | **AES Token value**. This property specifies the AES Token used for decryption. [AES Token Example](/ravnur-player-instructions.md#advanced-encryption-standard-aes-example)). |
 | logger | `null` | `Player$Logger` | Custom logger |
 | loggerLevel | `2` | `number` | This parameter sets the severity of logs |
 | i18n |  | `Player$Translation` | Custom translations object |
@@ -358,7 +358,7 @@ type Player$TimeDataSource = {
 }
 ```
 #### Type Definition for Player Source
- The `Player$Source` type is particularly important as it defines the structure of the media source object you will use during [Step 3. Setup](https://github.com/Ravnur-Inc/blob/main/docs/ravnur-player-instructions.md#setup).
+ The `Player$Source` type is particularly important as it defines the structure of the media source object you will use during [Setup](/ravnur-player-instructions.md#setup).
 ```
 type Player$Source = {
    id: string;
@@ -554,7 +554,7 @@ player.setup(media, options);
 ```
 
 > [!NOTE]
-> Reminder: Ensure to replace 'YOUR_MEDIA_SOURCE_URL' with the actual URL of your media source, and "YOUR_MEDIA_MIME_TYPE" with the appropriate MIME type of your media content. See [Step 3](https://github.com/Ravnur-Inc/blob/main/docs/ravnur-player-instructions.md#setup).
+> Reminder: Ensure to replace 'YOUR_MEDIA_SOURCE_URL' with the actual URL of your media source, and "YOUR_MEDIA_MIME_TYPE" with the appropriate MIME type of your media content. See [Setup](/ravnur-player-instructions.md#setup).
 
 
 ### Digital Rights Management (DRM) examples
