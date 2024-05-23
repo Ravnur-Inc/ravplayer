@@ -46,7 +46,7 @@
  Get RMPlayer up and running in your application. Follow the steps below to begin using RMPlayer in your web applications.
 
 
-### 1. Installation
+### Installation
 ___
 
 #### Using CDN
@@ -57,7 +57,7 @@ Include the Ravnur Media Player script in your HTML file by adding the following
 <script src=”https://unpkg.com/ravnur-player-public@latest/dist/cdn/RavnurMediaPlayer.min.js” ></script>
 ```
 
-#### <a id="add-to-codebase"></a>Add to Codebase
+#### Add to Codebase
 
 Alternatively, you can include the Ravnur Media Player script to your project's codebase. Ensure that you include the script in your HTML file:
 
@@ -65,7 +65,7 @@ Alternatively, you can include the Ravnur Media Player script to your project's 
 <script src="path/to/RavnurMediaPlayer.min.js"></script>
 ```
 
-#### <a id="using-private-npm-registry"></a>Using NPM registry
+#### Using NPM registry
 
 You can also install Ravnur Media Player using the npm registry. 
 
