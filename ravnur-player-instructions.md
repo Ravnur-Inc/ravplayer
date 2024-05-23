@@ -29,15 +29,15 @@
 
 7. [Types (Flow syntax)](#types-flow-syntax)
 
-8. [Advanced Encryption Standard (AES) example](#aes)
+8. [Advanced Encryption Standard (AES) example](#advanced-encryption-standard-aes-example)
 
-9. [Digital Rights Management (DRM) examples](#drm)
+9. [Digital Rights Management (DRM) examples](#digital-rights-management-drm-examples)
    - [Widevine](#widevine)
    - [Playready](#playready)
    - [Fairplay](#fairplay)
 
-10. [Time data](#timedata)
-      - [Closed Captions](#cc)
+10. [Time data](#time-data-example)
+      - [Closed Captions](#closed-captions)
       - [Annotations](#annotations)
       - [Chapters](#chapters)
 
