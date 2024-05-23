@@ -6,7 +6,7 @@ As mentioned by [Microsoft documentation](https://learn.microsoft.com/en-us/azur
 
 ### Get started
 
-The installation procedure is described in the Documentation guide. 
+The installation procedure is described in the [Documentation guide](/ravnur-player-instructions.md). 
 In general, you will just need:
 1. Include the Ravnur Media Player in your project by either adding the CDN link in the <head> section of your HTML file or by installing it via npm and importing it into your project file.
 2. Initiate a new instance by providing the target element and styles.
