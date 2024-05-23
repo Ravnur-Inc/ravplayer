@@ -46,10 +46,10 @@
  Get RMPlayer up and running in your application. Follow the steps below to begin using RMPlayer in your web applications.
 
 
-### 1. <a id="installation"></a>Installation
+### 1. Installation
 ___
 
-#### <a id="using-cdn"></a>Using CDN
+#### Using CDN
 
 Include the Ravnur Media Player script in your HTML file by adding the following CDN link in the `<head>` section:
 
