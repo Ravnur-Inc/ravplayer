@@ -8,13 +8,13 @@
 1. [Installation](#installation)
    - [Using CDN](#using-cdn)
    - [Add to Codebase](#add-to-codebase)
-   - [Using private NPM registry](#using-private-npm-registry)
+   - [Using private NPM registry](#using-npm-registry)
 
 2. [Initialization](#initialization)
 
 3. [Setup](#setup)
 
-4. [Demo page](#player-demo-page)
+4. [Demo page](#demo-page)
    
 
 ## How to use
@@ -82,7 +82,7 @@ import { RavnurMediaPlayer } from 'ravnur-player-public'
 ```
 
 
-### 2. <a id="initialization"></a>Initialization
+### Initialization
 ___
 
 To use Ravnur Media Player, initiate a new instance by providing the target element and styles:
@@ -105,7 +105,7 @@ const player = new RavnurMediaPlayer(element, styles);
 ```
 By following these instructions, you'll successfully initialize the Ravnur Media Player for integration into your web application.
 
-### 3. <a id="setup"></a>Setup
+### Setup
 ___
 
 After initialization, set up the player with a media source and additional options.
@@ -125,7 +125,7 @@ player.setup(media, options);
 > [!NOTE]
  Important! Ensure to replace 'YOUR_MEDIA_SOURCE_URL' with the actual URL of your media source, and "YOUR_MEDIA_MIME_TYPE" with the appropriate MIME type of your media content.
 
-### 4. <a id="player-demo-page"></a>Demo page
+### Demo page
 ___
 Explore the capabilities of the Ravnur Media Player through our interactive demo pages:
 
@@ -147,7 +147,7 @@ ___
 
 This part of the guide provides  instructions for integrating RMPlayer into your projects. It covers understanding and configuring options, managing events, emitting signals, and utilizing methods. By following the instructions provided below, you will be able to implement RMPlayer into your applications.
 
-### 5. <a id="player-options"></a>Options
+### Options
 
 
 The RMPlayer provides a set of options to customize the behavior and appearance of the player. Below is a list of available options, including default values and descriptions.
@@ -221,7 +221,7 @@ ___
 | fairplayCertificateUrl | `undefined` | `string` | Fairplay license certificate URL. |
 | playbackRates | `[0.5, 0.8, 1, 1.5, 2, 3, 5]` | Array of numbers | Custom playback rate options: an array of numbers from 0.01 to 5. For example, `[0.25, 0.50, 1, 1.75]`. Option 1 is always present as "Standard", and option 5 is hidden for audio-only media.|
 
-### 6. <a id="player-events"></a>Events
+### Events
 ___
 
 You can monitor the player events using the `player.on()` method. The player also supports all HTMLMediaElement events. For details, refer to the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement).
@@ -252,7 +252,7 @@ The following table provides a description of each player event and its purpose:
 
 
 
-### 7. <a id="player-emits"></a>Emits
+### Emits
 ___
 
 Emits are designed to notify the player of specific actions or changes, allowing for dynamic updates and synchronization with external components or user interactions.
@@ -269,7 +269,7 @@ You have the option to manually trigger these events. For instance, you can use 
 |changeplaylistmode|`bottom` \| `right`|Changes the player's playlist mode|
 |changesource|`Player$Source`|Changes the current media source|
 
-### 8. <a id="player-methods"></a>Methods
+### Methods
 ___
  The Player has a set of tools to control and manipulate media playback within web applications. Customize playback controls, dynamically load media sources, select quality levels, audio tracks, and more. This provided the flexibility and control needed to create interactive media experiences. 
  
@@ -306,11 +306,11 @@ Example of usage: `player.controller.getCurrentTime();`.
 |setPlaybackRate|`number`| - |Sets the current playback rate|
 
 
-### 9. <a id="types-flow-syntax"></a>Types (Flow syntax)
+### Types (Flow syntax)
 ---
 Explore the type definitions in the RMPlayer codebase to understand the structure of various objects and data. This can help in understanding and maintenance of the player implementation.
 
-###  Type Definition for a function used for Logging purposes 
+####  Type Definition for a function used for Logging purposes 
 ```
 type Player$LoggerFn = (...args: Array<mixed>) => void
 
@@ -325,7 +325,7 @@ type Player$LoggerFn = (...args: Array<mixed>) => void
 
 
 ```
-### Type Definition for Crawl Options
+#### Type Definition for Crawl Options
 ```
 type Player$CrawlOptions = {
    text: string,
@@ -334,18 +334,18 @@ type Player$CrawlOptions = {
    textColor: string
 }
 ```
-### Type Definition for Playlist Mode
+#### Type Definition for Playlist Mode
 ```
 
 type Player$PlaylistMode = 'bottom' | 'right' | 'auto';
 ```
-### Type Definition for Source Status
+#### Type Definition for Source Status
 ```
 
 type Player$SourceStatus = 0 | 1 | 2;
 
 ```
-### Type Definition for Time Data Source
+#### Type Definition for Time Data Source
 ```
 
 type Player$TimeDataSource = {
@@ -357,8 +357,8 @@ type Player$TimeDataSource = {
    state?: Player$SourceStatus
 }
 ```
-### Type Definition for Player Source
- The `Player$Source` type is particularly important as it defines the structure of the media source object you will use during [Step 3. Setup](https://github.com/Ravnur-Inc/blob/main/docs/ravnur-player-instructions.md#3-setup).
+#### Type Definition for Player Source
+ The `Player$Source` type is particularly important as it defines the structure of the media source object you will use during [Step 3. Setup](https://github.com/Ravnur-Inc/blob/main/docs/ravnur-player-instructions.md#setup).
 ```
 type Player$Source = {
    id: string;
@@ -374,7 +374,7 @@ type Player$Source = {
    clip?: ?[number, number] // [ 10, 300 ] sec
 }
 ```
-### Type Definition for Closed Caption (CC) Colors
+#### Type Definition for Closed Caption (CC) Colors
 ```
 
 type Player$CCColor = '#F44336'
@@ -382,13 +382,13 @@ type Player$CCColor = '#F44336'
    | '#FFEB3B' | '#FF9800' | '#795548' | '#9E9E9E' | '#FFF' | '#000'
 
 ```
-### Type Definition for Closed Caption (CC) Font Sizes
+#### Type Definition for Closed Caption (CC) Font Sizes
 ```
 
 type Player$CCFontSize = '75%' | '100%' | '125%' | '150%' | '200%'
 
 ```
-### Type Definition for Closed Caption (CC) Font Families
+#### Type Definition for Closed Caption (CC) Font Families
 ```
 
 type Player$CCFontFamily = '"Courier New", Courier, "Nimbus Mono L", "Cutive Mono", monospace'
@@ -397,13 +397,13 @@ type Player$CCFontFamily = '"Courier New", Courier, "Nimbus Mono L", "Cutive Mon
    | 'Roboto, "Arial Unicode Ms", Arial, Helvetica, Verdana, sans-serif'
 
 ```
-### Type Definition for Closed Caption (CC) Location
+#### Type Definition for Closed Caption (CC) Location
 ```
 
 type Player$CCLocation = 'over' | 'below'
 
 ```
-### Type Definition for Closed Caption (CC) State
+#### Type Definition for Closed Caption (CC) State
 ```
 
 type Player$StateCC = {
@@ -420,7 +420,7 @@ type Player$StateCC = {
 }
 
 ```
-### Type Definition for Table of Contents (TOC) State
+#### Type Definition for Table of Contents (TOC) State
 ```
 
 type Player$StateTOC = {
@@ -431,7 +431,7 @@ type Player$StateTOC = {
 }
 
 ```
-### Type Definition for Player State
+#### Type Definition for Player State
 ```
 
 type Player$State = {
@@ -441,7 +441,7 @@ type Player$State = {
    toc: Player$StateTOC
 }
 ```
-### Type Definition for Player Styles
+#### Type Definition for Player Styles
 ```
 
 type Player$Styles = {
@@ -454,7 +454,7 @@ type Player$Styles = {
    rplaylistHeight: string
 }
 ```
-### Type Definition for Time Data
+#### Type Definition for Time Data
 ```
 
  type Player$TimeData = {
@@ -465,7 +465,7 @@ type Player$Styles = {
    title?: ?string
 }
 ```
-### Type Definition for Player Translation
+#### Type Definition for Player Translation
 ```
 
 type Player$Translation = {
@@ -531,10 +531,10 @@ type Player$Translation = {
 }
 ```
 
-### 10. <a id="aes"></a>Advanced Encryption Standard (AES) example
+### Advanced Encryption Standard (AES) example
 ___
 
-In order to enable AES encryption, you need to pass the [AES token](https://github.com/Ravnur-Inc/ams-api-replacement-demo-app/blob/main/docs/ravnur-player-instructions.md#:~:text=the%20next%20visit.-,aesToken,-undefined) along with other options before loading the source. 
+In order to enable AES encryption, you need to pass the [AES token](/ravnur-player-instructions.md#:~:text=Description-,aesToken,-undefined) along with other options before loading the source. 
 
 > [!NOTE]
 > Note that you should only pass the token value itself without any modifications such as 'Bearer'. Moreover, the AES implementation won't work on IOS devices. To make it work, you will need to implement your own proxy.
@@ -554,14 +554,14 @@ player.setup(media, options);
 ```
 
 > [!NOTE]
-> Reminder: Ensure to replace 'YOUR_MEDIA_SOURCE_URL' with the actual URL of your media source, and "YOUR_MEDIA_MIME_TYPE" with the appropriate MIME type of your media content. See [Step 3](https://github.com/Ravnur-Inc/blob/main/docs/ravnur-player-instructions.md#3-setup).
+> Reminder: Ensure to replace 'YOUR_MEDIA_SOURCE_URL' with the actual URL of your media source, and "YOUR_MEDIA_MIME_TYPE" with the appropriate MIME type of your media content. See [Step 3](https://github.com/Ravnur-Inc/blob/main/docs/ravnur-player-instructions.md#setup).
 
 
-### 11. <a id="drm"></a> Digital Rights Management (DRM) examples
+### Digital Rights Management (DRM) examples
 ___
 In the case of using RMS API, the is a separate page on [How to configure and test DRM feature](https://github.com/Ravnur-Inc/ams-api-replacement-demo-app/blob/main/docs/drm-user-guide.md).
 
-#### <a id="widevine"></a>Widevine 
+#### Widevine 
 
 [Learn more](https://www.widevine.com/about) about Widevine DRM technology. 
 
@@ -580,7 +580,7 @@ player.setup(media, options);
 
 Make sure to update the variables with relevant information.
 
-#### <a id="playready"></a>Playready 
+#### Playready 
 
 [Learn more](https://learn.microsoft.com/en-us/playready/) about Playready DRM technology. 
 
@@ -598,7 +598,7 @@ player.setup(media, options);
 ```
 Make sure to update the variables with relevant information.
 
-#### <a id="fairplay"></a>Fairplay 
+#### Fairplay 
 
 [Learn more](https://developer.apple.com/streaming/fps/) about Fairplay DRM technology. 
 
@@ -617,12 +617,12 @@ player.setup(media, options);
 ```
 Make sure to update the variables with relevant information.
 
-### 12. <a id="timedata"></a>Time data example
+### Time data example
 ___
 
 Ravnur media player lets you customize your media time data. Use chapters, annotations, and closed captions (CC) – all based on the [`Player$TimeDataSource`](#types-flow-syntax) type. Chapters break content into sections for easy navigation,  annotations let you include notes, commentary, or links at specific moments, and CC makes your content accessible with a text transcript of the audio. You can find an example [here](https://github.com/Ravnur-Inc/ams-api-replacement-demo-app/blob/main/player-demos/html-demo/app.js).
 
-#### <a id="cc"></a>Closed Captions 
+#### Closed Captions 
 
 In the case of using RMS API, you have the option to configure ["CC generation using Video Indexer in RMS"](https://github.com/Ravnur-Inc/ams-api-replacement-demo-app/blob/main/docs/audio-analyzer-job-with-video-indexer.md).
 
@@ -667,7 +667,7 @@ let options = {
 player.setup(media, options); 
 ```
 
-#### <a id="annotations"></a>Annotations
+#### Annotations
 
 [Example JSON file](https://github.com/Ravnur-Inc/ams-api-replacement-demo-app/blob/main/player-demos/html-demo/src/annotations/annotations.json)
 
@@ -698,7 +698,7 @@ let options = {
 player.setup(media, options); 
 ```
 
-#### <a id="chapters"></a>Chapters
+#### Chapters
 
 [Example VTT file](https://github.com/Ravnur-Inc/ams-api-replacement-demo-app/blob/main/player-demos/html-demo/src/chapters/chapters_en.vtt)
 
