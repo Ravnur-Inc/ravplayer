@@ -19,13 +19,13 @@
 
 ## How to use
 
-5. [Options](#player-options)
+5. [Options](#options)
 
-6. [Events](#player-events)
+6. [Events](#events)
 
-7. [Emits](#player-emits)
+7. [Emits](#emits)
 
-8. [Methods](#player-methods)
+8. [Methods](#methods)
 
 7. [Types (Flow syntax)](#types-flow-syntax)
 
