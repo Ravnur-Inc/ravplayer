@@ -125,6 +125,12 @@ player.setup(media, options);
 > [!NOTE]
  Important! Ensure to replace 'YOUR_MEDIA_SOURCE_URL' with the actual URL of your media source, and "YOUR_MEDIA_MIME_TYPE" with the appropriate MIME type of your media content.
 
+You can use the 'destroy' method to remove a player from the DOM and destroy it.
+
+```
+player.destroy();
+```
+
 ### Demo page
 ___
 Explore the capabilities of the Ravnur Media Player through our interactive demo pages:
