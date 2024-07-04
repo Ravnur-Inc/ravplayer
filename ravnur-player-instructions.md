@@ -142,7 +142,7 @@ Explore the capabilities of the Ravnur Media Player through our interactive demo
 
 #### Code examples
 For further guidance, access our repository of code examples for popular JavaScript frameworks and vanilla JavaScript:
-[here](https://github.com/Ravnur-Inc/ams-api-replacement-demo-app/tree/main/player-demos). These examples can be referenced and adapted to implement Ravnur Media Player within your own project.
+[here](/player-demos). These examples can be referenced and adapted to implement Ravnur Media Player within your own project.
 
 These examples can be referenced and adapted to implement Ravnur Media Player within your project.
 
