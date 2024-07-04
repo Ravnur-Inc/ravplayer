@@ -1,6 +1,6 @@
 # Ravnur Media Player
 
-RMS presents a Ravnur Media Player - a web-based media player that can stream adaptive bitrate video and audio. It uses the open web standards MediaSource Extensions and Encrypted Media Extensions. 
+Ravnur presents the Ravnur Media Player - a web-based media player that can stream adaptive bitrate video and audio. It uses the open web standards MediaSource Extensions and Encrypted Media Extensions. 
 
 As mentioned by [Microsoft documentation](https://learn.microsoft.com/en-us/azure/media-services/azure-media-player/azure-media-player-overview), Azure Media Player only supports media streams from Azure Media Services. As an alternative, RMS recommends a Ravnur Media Player.
 
