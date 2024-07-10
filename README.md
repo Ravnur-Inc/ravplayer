@@ -14,6 +14,13 @@ In general, you will just need:
 
 All the code samples are included in the full guide together with player demos and implementation insights.
 
+### Try it out
+Test the abilities of Ravnur Player on demo pages:
+
+#### [Demo 1](https://strmsdemo.z13.web.core.windows.net/)
+
+#### [Demo 2](https://strmsdemo.z13.web.core.windows.net/html-demo/index.html)
+
 ### Implementation possibilities
 
 The customization capabilities allow the developer to configure options, manage events, emit signals, and utilize methods.
