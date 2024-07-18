@@ -129,6 +129,7 @@ You can use the 'destroy' method to remove a player from the DOM and destroy it.
 
 ```
 player.destroy();
+player = null;
 ```
 
 ### Demo page
