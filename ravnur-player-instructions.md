@@ -1,7 +1,6 @@
 # Ravnur Media Player Documentation
 
- The Ravnur Media Player is a web-based application that enables streaming of adaptive bitrate video and audio.
- This documentation provides a guide to installing, initializing, setting up, and using RMPlayer within your projects. Covering topics such as configuring playback options, handling events, and utilizing features like digital rights management (DRM) and encryption, this documentation offers instructions for integrating RMPlayer into your applications. Whether you're transitioning from legacy players like [Azure Media Player](https://learn.microsoft.com/en-us/azure/media-services/azure-media-player/azure-media-player-overview) or exploring alternatives for your project, RMPlayer presents a compatible solution.
+This documentation provides a guide to installing, initializing, setting up, and using the Ravnur Media Player within your projects. Covering topics such as configuring playback options, handling events, and utilizing features like digital rights management (DRM) and encryption, this documentation offers instructions for integrating the Ravnur Media Player into your applications. Whether you're transitioning from legacy players like [Azure Media Player](https://learn.microsoft.com/en-us/azure/media-services/azure-media-player/azure-media-player-overview) or exploring alternatives for your project, the Ravnur Media Player offers a compatible solution.
 
 ## Get started
  
