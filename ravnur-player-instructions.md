@@ -42,7 +42,7 @@ This documentation provides a guide to installing, initializing, setting up, and
 
 
 ## Get started
- Get RMPlayer up and running in your application. Follow the steps below to begin using RMPlayer in your web applications.
+ Get the Ravnur Media Player up and running in your application. Follow the steps below to begin using the Ravnur Media Player in your web applications.
 
 
 ### Installation
@@ -84,7 +84,7 @@ import { RavnurMediaPlayer } from 'ravnur-player-public'
 ### Initialization
 ___
 
-To use Ravnur Media Player, initiate a new instance by providing the target element and styles:
+To use the Ravnur Media Player, initiate a new instance by providing the target element and styles:
 
 HTML
 ```
@@ -151,12 +151,12 @@ ___
 
 ## Implementation Instructions
 
-This part of the guide provides  instructions for integrating RMPlayer into your projects. It covers understanding and configuring options, managing events, emitting signals, and utilizing methods. By following the instructions provided below, you will be able to implement RMPlayer into your applications.
+This part of the guide provides  instructions for integrating the Ravnur Media Player into your projects. It covers understanding and configuring options, managing events, emitting signals, and utilizing methods. By following the instructions provided below, you will be able to implement the Ravnur Media Player into your applications.
 
 ### Options
 
 
-The RMPlayer provides a set of options to customize the behavior and appearance of the player. Below is a list of available options, including default values and descriptions.
+The Ravnur Media Player provides a set of options to customize the behavior and appearance of the player. Below is a list of available options, including default values and descriptions.
 
 ___
 
@@ -277,7 +277,7 @@ You have the option to manually trigger these events. For instance, you can use 
 
 ### Methods
 ___
- The Player has a set of tools to control and manipulate media playback within web applications. Customize playback controls, dynamically load media sources, select quality levels, audio tracks, and more. This provided the flexibility and control needed to create interactive media experiences. 
+ The Ravnur Media Player has a set of tools to control and manipulate media playback within web applications. Customize playback controls, dynamically load media sources, select quality levels, audio tracks, and more. This provided the flexibility and control needed to create interactive media experiences. 
  
 Example of usage: `player.controller.getCurrentTime();`.
 
@@ -565,7 +565,7 @@ player.setup(media, options);
 
 ### Digital Rights Management (DRM) examples
 ___
-In the case of using RMS API, the is a separate page on [How to configure and test DRM feature](https://github.com/Ravnur-Inc/ams-api-replacement-demo-app/blob/main/docs/drm-user-guide.md).
+In the case of using RMS API, there is a separate page on [How to configure and test DRM feature](https://github.com/Ravnur-Inc/ams-api-replacement-demo-app/blob/main/docs/drm-user-guide.md).
 
 #### Widevine 
 
@@ -626,7 +626,7 @@ Make sure to update the variables with relevant information.
 ### Time data example
 ___
 
-Ravnur media player lets you customize your media time data. Use chapters, annotations, and closed captions (CC) – all based on the [`Player$TimeDataSource`](#types-flow-syntax) type. Chapters break content into sections for easy navigation,  annotations let you include notes, commentary, or links at specific moments, and CC makes your content accessible with a text transcript of the audio. You can find an example [here](https://github.com/Ravnur-Inc/ams-api-replacement-demo-app/blob/main/player-demos/html-demo/app.js).
+The Ravnur Media Player lets you customize your media time data. Use chapters, annotations, and closed captions (CC) – all based on the [`Player$TimeDataSource`](#types-flow-syntax) type. Chapters break content into sections for easy navigation,  annotations let you include notes, commentary, or links at specific moments, and CC makes your content accessible with a text transcript of the audio. You can find an example [here](https://github.com/Ravnur-Inc/ams-api-replacement-demo-app/blob/main/player-demos/html-demo/app.js).
 
 #### Closed Captions 
 
@@ -738,4 +738,4 @@ player.setup(media, options);
 
 ___
 
-Congratulations on completing the integration of Ravnur Media Player into your project! Should you encounter any issues or have questions during the implementation process, don't hesitate to reach out to our technical support team for assistance. We're here to help ensure a successful integration of RMPlayer into your applications.
+Congratulations on completing the integration of Ravnur Media Player into your project! Should you encounter any issues or have questions during the implementation process, don't hesitate to reach out to our technical support team for assistance. We're here to help ensure a successful integration of the Ravnur Media Player into your applications.
