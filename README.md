@@ -15,7 +15,7 @@ In general, you will just need:
 All the code samples are included in the full guide together with player demos and implementation insights.
 
 ### Try it out
-Test the abilities of Ravnur Player on demo pages:
+Test the features of the Ravnur Media Player:
 
 #### [Ravnur Media Player Demo ](https://strmsdemo.z13.web.core.windows.net/)
 
