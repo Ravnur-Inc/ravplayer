@@ -17,9 +17,7 @@ All the code samples are included in the full guide together with player demos a
 ### Try it out
 Test the abilities of Ravnur Player on demo pages:
 
-#### [Demo 1](https://strmsdemo.z13.web.core.windows.net/)
-
-#### [Demo 2](https://strmsdemo.z13.web.core.windows.net/html-demo/index.html)
+#### [Ravnur Media Player Demo ](https://strmsdemo.z13.web.core.windows.net/)
 
 ### Implementation possibilities
 
