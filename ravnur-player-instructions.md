@@ -213,8 +213,8 @@ ___
 | alwaysShowExtensions | `false` | `boolean` | Keeps showing extensions even if the media is playing |
 | extensionsVisibilityTimeout | `2000` ms (`4000` ms on mobile) | `number` | Hides extensions if media is playing after this time. |
 | skipDelta | `10` | `number` | Value in seconds which is used for media skip forward/backward functionality |
-| keyboardListeners | `{}` | `{ [keyCode]: (player) => void }` | allows the customization of key codes and their handle functions |
-| globalKeyboardListeners | `false` | `boolean` | controls whether keyboard commands are observed and acted upon across the entire webpage or within the player area. When set to true, keyboard inputs affect the entire webpage, while false restricts them to interactions within the player only |
+| keyboardListeners | `{}` | `{ [keyCode]: (player) => void }` | Allows the customization of key codes and their handle functions |
+| globalKeyboardListeners | `false` | `boolean` | Controls whether keyboard commands are observed and acted upon across the entire webpage or within the player area. When set to true, keyboard inputs affect the entire webpage, while false restricts them to interactions within the player only |
 | isHandlingKeyboardEvents | `true` | `boolean` | Enables keyboard event handling |
 | bufferingTimeout | `200` | `number` | Specifies the delay in milliseconds, before displaying the processing spinner during buffering |
 | isMobile | `false` (`true` on mobile devices) | `boolean` | Enables mobile mode in the player |
@@ -226,6 +226,7 @@ ___
 | fairplayURL | `undefined` | `string` | Fairplay license server URL. [Example](#fairplay). |
 | fairplayCertificateUrl | `undefined` | `string` | Fairplay license certificate URL. |
 | playbackRates | `[0.5, 0.8, 1, 1.5, 2, 3, 5]` | Array of numbers | Custom playback rate options: an array of numbers from 0.01 to 5. For example, `[0.25, 0.50, 1, 1.75]`. Option 1 is always present as "Standard", and option 5 is hidden for audio-only media.|
+| qualityLevel | `Auto` |  string | Initial video quality selected in the player. The `Auto` value adjusts the quality based on connection speed. Example of setting up the option: `qualityLevel: '720'`. Users can select the quality of the player from a list later. |
 
 ### Events
 ___
