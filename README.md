@@ -36,3 +36,20 @@ Here is a general list of what is offered:
 | Chapters                         | Customize your media with chapters, which break content into sections for easy navigation. This allows users to quickly jump to different parts of the media.   |
 | Annotations                      | Add annotations to your media, enabling you to include notes, commentary, or links at specific moments.                                                         |
 | Closed Captions (CC)             | Implement closed captions (CC) to make your content accessible with a text transcript of the audio.                                                            |
+
+### Updating the Ravnur Player
+Depending on how you installed the Ravnur Player, there are different methods to keep it up to date:
+
+#### CDN Users:
+
+If you used the CDN to load the Ravnur Player, updates are automatic. This means you will always be using the latest version without any additional steps.
+#### Added to Codebase:
+
+For users who have added the Ravnur Player directly to their codebase, you will need to replace the updated JavaScript file manually. Download the latest version from the [unpkg](https://unpkg.com/ravnur-player-public@3.2.7/dist/cdn/RavnurMediaPlayer.min.js)  and replace the existing file in your project.
+#### NPM Registry:
+
+If you have installed the Ravnur Player via the NPM  registry, you can update it using the NPM command. Run the following command in your project directory to update to the latest version:
+```
+npm update ravnur-player-public
+```
+
