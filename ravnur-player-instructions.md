@@ -122,9 +122,9 @@ let options = { ... };
 player.setup(media, options); 
 ```
 > [!NOTE]
- Important! Ensure to replace 'YOUR_MEDIA_SOURCE_URL' with the actual URL of your media source, and "YOUR_MEDIA_MIME_TYPE" with the appropriate MIME type of your media content.
+ Important! Ensure to replace `YOUR_MEDIA_SOURCE_URL` with the actual URL of your media source, and `YOUR_MEDIA_MIME_TYPE` with the appropriate MIME type of your media content.
 
-You can use the 'destroy' method to remove a player from the DOM and destroy it.
+You can use the `destroy` method to remove a player from the DOM and destroy it.
 
 ```
 player.destroy();
@@ -561,7 +561,7 @@ player.setup(media, options);
 ```
 
 > [!NOTE]
-> Reminder: Ensure to replace 'YOUR_MEDIA_SOURCE_URL' with the actual URL of your media source, and "YOUR_MEDIA_MIME_TYPE" with the appropriate MIME type of your media content. See [Setup](/ravnur-player-instructions.md#setup).
+> Reminder: Ensure to replace `YOUR_MEDIA_SOURCE_URL` with the actual URL of your media source, and `YOUR_MEDIA_MIME_TYPE` with the appropriate MIME type of your media content. See [Setup](/ravnur-player-instructions.md#setup).
 
 
 ### Digital Rights Management (DRM) examples
