@@ -194,6 +194,7 @@ ___
 | crawl | `null` | `Player$CrawlOptions` | Crawl text configurations |
 | isProgressLiveStream | `false` |`boolean` | If `true`, disables progress bar click event and current time indicator |
 | showSubtitles | `false` | `boolean` | Disables captions build in the manifest |
+| showError | `true` | `boolean` | By default, if the media fails to load, the message 'An error occurs while playing the media' appears in the player. To display a custom error message, set this option to `false` and provide your own error handling logic. |
 | isAudio | `false` (`true` for audio) | `boolean` | Turns on players audio mode |
 | timecode | `0` | `number` | Sets time code value |
 | frameRate | `23.976` | `number` | Sets frame rate value |
@@ -585,8 +586,6 @@ let options = {
 player.setup(media, options); 
 ```
 
-Make sure to update the variables with relevant information.
-
 #### Playready 
 
 [Learn more](https://learn.microsoft.com/en-us/playready/) about Playready DRM technology. 
@@ -603,8 +602,6 @@ let options = {
 
 player.setup(media, options); 
 ```
-Make sure to update the variables with relevant information.
-
 #### Fairplay 
 
 [Learn more](https://developer.apple.com/streaming/fps/) about Fairplay DRM technology. 
