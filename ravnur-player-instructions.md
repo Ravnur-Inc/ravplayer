@@ -192,6 +192,7 @@ ___
 | showNext | `false` | `boolean` | Shows prev track button in a full screen mode |
 | showCrawl | `false` | `boolean` | Shows the crawl text |
 | crawl | `null` | `Player$CrawlOptions` | Crawl text configurations |
+| isLive | `false` | `boolean` | If `true`, enable the live-stream mode in the player, causing it to jump to the live edge on start |
 | isProgressLiveStream | `false` |`boolean` | If `true`, disables progress bar click event and current time indicator |
 | showSubtitles | `false` | `boolean` | Disables captions build in the manifest |
 | showError | `true` | `boolean` | By default, if the media fails to load, the message 'An error occurs while playing the media' appears in the player. To display a custom error message, set this option to `false` and provide your own error handling logic. |
