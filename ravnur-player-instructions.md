@@ -206,7 +206,7 @@ ___
 | useNativeControls | `false` | `boolean` | Removes all the elements from the player and allows only native controls |
 | useOriginTimeForPreview | `true` | `boolean` | Enables origin time frame for a preview |
 | playlistmode | `auto` | `Player$PlaylistMode` | Controls a playlist position |
-| plalistAutoGoNext | `true` | `boolean` | Plays the next media when the current has ended |
+| playlistAutoGoNext | `true` | `boolean` | Plays the next media when the current has ended |
 | playlistitle | `''` | `string` | Playlist title value |
 | playlistforcepoint | `0` | `number` | Minimum width in pixels. If the player is resized to a width lower than this value, the playlist mode will be changed to 'bottom'|
 | playLoop | `false` | `boolean` | Automatically starts playing from the beginning when the media has ended. |
