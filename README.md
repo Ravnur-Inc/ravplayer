@@ -38,7 +38,7 @@ Here is a general list of what is offered:
 | Closed Captions (CC)             | Implement closed captions (CC) to make your content accessible with a text transcript of the audio.                                                            |
 
 ### Updating the Ravnur Player
-Depending on how you installed the Ravnur Player, there are different methods to keep it up to date:
+How you receive updates depends on how the player was integrated into your project:
 
 #### CDN Users:
 
