@@ -133,12 +133,9 @@ player = null;
 
 ### Demo page
 ___
-Explore the capabilities of the Ravnur Media Player through our interactive demo pages:
+Explore the capabilities of the Ravnur Media Player through our interactive playground:
 
-### [Demo 1](https://strmsdemo.z13.web.core.windows.net/)
-
-
-### [Demo 2](https://strmsdemo.z13.web.core.windows.net/html-demo/index.html)
+### [Playground](https://ravplayer.ravnur.com/)
 
 #### Code examples
 For further guidance, access our repository of code examples for popular JavaScript frameworks and vanilla JavaScript:
